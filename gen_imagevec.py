@@ -31,7 +31,7 @@ filenames, data = create_matrix()
 data=create_matrix()   
 bdbox=pd.read_csv(rawdata+"\\"+'train-annotations-bboxs.csv')    
 print(bdbox.columns.values)  
-print(bdbox[[])    
+ 
     
 '''
 REF ONLY
@@ -51,6 +51,6 @@ print(stg1attr['image_id'])
 print(stg1attr.loc[stg1attr['image_id'].isin(filenames)])
 print(bdbox.loc[bdbox['ImageID'].isin(filenames)])
 bdbox.shape
-''''
+'''
 
 
